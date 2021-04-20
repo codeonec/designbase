@@ -17,13 +17,13 @@ function MyApp({ Component, pageProps }) {
           <meta name="description" content="Library of top rated curated design resources for developers. UI Inspirations, UI Resources, Icons, Fonts, Illustrations and much more..." />
           <meta name="keywords" content="UI Inpirations, Design Inspirations, UI Resources, Design Resources, UI design, UI/UX, Icons, Free Icons, Fonts, Free Fonts, Colors, Color Palette, Color Palette Generator, Illustrations, Free Illustrations, Design System, Design Guides, Stock Images, Free Images, Mockups, Free Mockups" />
           <link
-            href="/favicon-16x16.png"
+            href="/Favicon-16x16.png"
             rel="icon"
             type="image/png"
             sizes="16x16"
           />
           <link
-            href="/favicon-32x32.png"
+            href="/Favicon-32x32.png"
             rel="icon"
             type="image/png"
             sizes="32x32"
