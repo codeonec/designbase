@@ -46,14 +46,17 @@ function MyApp({ Component, pageProps }) {
           <meta property="twitter:description" content="Library of top rated curated design resources for developers. UI Inspirations, UI Resources, Icons, Fonts, Illustrations and much more..."></meta>
           <meta property="twitter:image" content="https://designbase.vercel.app/og_tw_img.png"></meta>
           
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-H33LWYM277"></script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+           <script async src="https://www.googletagmanager.com/gtag/js?id=G-H33LWYM277"></script>
 
-            gtag('config', 'G-H33LWYM277');
-          </script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+          
+                      gtag('config', 'G-H33LWYM277');`
+            }}
+          />
 
 
         </Head>
