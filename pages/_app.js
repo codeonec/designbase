@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }) {
           <meta property="twitter:url" content="https://designbase.vercel.app/"></meta>
           <meta property="twitter:title" content="DesignBase — Developers' Treasure of Resources"></meta>
           <meta property="twitter:description" content="Library of top rated curated design resources for developers. UI Inspirations, UI Resources, Icons, Fonts, Illustrations and much more..."></meta>
-          <meta property="twitter:image" content="https://designbase.vercel.app/og_tw_img.png"></meta>
+          <meta property="twitter:image:src" content="https://designbase.vercel.app/og_tw_img.png"></meta>
           
            <script async src="https://www.googletagmanager.com/gtag/js?id=G-H33LWYM277"></script>
 
