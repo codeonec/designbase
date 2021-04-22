@@ -11,6 +11,7 @@ export default function Home({data}) {
           <div className="cover">
             <div className="header head-1">Developers' Treasure of Resources</div>
             <div className="subhead">Curated list of design resources for developers</div>
+            <a className="badge" href="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=293097&theme=light%22%20alt=%22Design%20Base%20-%20Curated%20design%20resources%20for%20developers%20|%20Product%20Hunt" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=293097&theme=light" alt="Design Base - Curated design resources for developers | Product Hunt" style={{width: "250px"}, {height: "54px"}} width="250" height="54" /></a>
           </div>
         </div>
       </section>
