@@ -210,6 +210,9 @@ a {
 }
 .home-container .cover{
   padding: 110px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .home-container .cover .header{
   max-width: 800px;
@@ -225,6 +228,9 @@ a {
   font-weight: 500;
   font-size: 16px;
   color: var(--text-color);
+}
+.home-container .cover .badge{
+  margin-top: 25px;
 }
 
 
